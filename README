@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=865
+
+This undoes the actions of the mswin.vim described under :help :behave. It restores the changed options (except guioptions) to their default (which was not necessarily what they were set to before invoking mswin, but that can't be helped) and undoes the mappings (except Ctrl-Q and Alt-Space, which are not deemed harmful).
